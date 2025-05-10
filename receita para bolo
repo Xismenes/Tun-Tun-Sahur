@@ -1,0 +1,17 @@
+import random
+numero_secreto = random.randit (1,10)
+tentativas=0
+contagem_tentativas=0
+print("=;= Bem Vindo ao jogo do Número secreto: ==")
+print("Tente adivinhar um número secreto ; ")
+while tentativas != numero_secreto:
+    numero = int(input("Digite um Número:"))
+    contagem_tentativas= contagem_tentativas+1
+    if numero == numero_secreto:
+        print("Parabéns, vocé acertou o número secreto")
+        print("Vocé precisou de {contagem_tentativas}")
+        break
+    elif numero< numero_secreto:
+        print("O número secreto é maior")
+else:
+    print("O número secreto é menor.")

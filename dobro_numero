@@ -1,0 +1,3 @@
+numero=int(input("digite um número:"))
+dobro = numero*2
+print (f"O resultado é:{dobro}")

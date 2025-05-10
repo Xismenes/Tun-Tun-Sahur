@@ -1,0 +1,5 @@
+numero=int(input("Escreva a sua nota:"))
+if numero>=7:
+    print("Aprovado.")
+else:
+    print("Reprovado. ")
